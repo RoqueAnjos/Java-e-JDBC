@@ -8,6 +8,6 @@ public class ConnectionFactory {
 
 	protected Connection recoverConnection() throws SQLException {
 		return DriverManager.getConnection("jdbc:mysql://localhost:3306/loja_virtual?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC",
-				"root", "root");
+				"root", "MilaPreta123!");
 	}
 }
